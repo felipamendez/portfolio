@@ -6,7 +6,7 @@ import About from "./About"
 import Projects from "./Projects"
 import Resume from "./Resume"
 import Contact from "./Contact"
-import Navbar from './Navbar';
+import Navbar from './Navbar'
 
 function App() {
 
