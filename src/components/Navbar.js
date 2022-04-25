@@ -4,21 +4,21 @@ function Navbar () {
 
     return (
         <>
-            <NavLink to="/">
-            <div> Home </div>
-            </NavLink>
-            <NavLink to="/about">
-            <div> About </div>
-            </NavLink>
-            <NavLink to="/projects">
-            <div> Projects </div>
-            </NavLink>
-            <NavLink to="/resume">
-            <div> Resume </div>
-            </NavLink>
-            <NavLink to="/contact">
-            <div> Contact </div>
-            </NavLink>
+                <NavLink to="/">
+                    Home 
+                </NavLink>
+                <NavLink to="about">
+                    About 
+                </NavLink>
+                <NavLink to="projects">
+                    Projects 
+                </NavLink>
+                <NavLink to="resume">
+                    Resume 
+                </NavLink>
+                <NavLink to="contact">
+                    Contact 
+                </NavLink>
         </>
     )
 }

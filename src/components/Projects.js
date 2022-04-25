@@ -1,5 +1,5 @@
 function Projects () {
-    console.log("hi")
+    
     return (
         <div>Projects</div>
     )

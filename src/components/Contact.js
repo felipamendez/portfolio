@@ -1,6 +1,5 @@
 function Contact () {
 
-    console.log("hi")
     return (
         <div>Contact</div>
     )

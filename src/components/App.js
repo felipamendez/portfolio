@@ -1,5 +1,4 @@
 
-import { Route, Switch } from 'react-router-dom';
 import '../App.css';
 import Home from "./Home"
 import About from "./About"
@@ -7,31 +6,31 @@ import Projects from "./Projects"
 import Resume from "./Resume"
 import Contact from "./Contact"
 import Navbar from './Navbar'
+import { 
+  Route, 
+  Routes
+ } from "react-router-dom"
+
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-        <Route exact path="/resume">
-          <Resume/>
-        </Route>
-        <Route exact path="/contact">
-         <Contact/>
-        </Route>
-      </Switch>
+          <Navbar />
+          <Routes>
+              <Route path="about" element={<About />}/>
+              
+              <Route path="projects" element={<Projects/>}/>
+              
+              <Route path="resume" element={<Resume/>}/>
+              
+              <Route path="contact" element={<Contact/>}/>
+
+              <Route path="/" element={<Home/>}/>
+          </Routes>
+     
     </div>
-  );
+  )
 }
 
 export default App;

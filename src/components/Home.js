@@ -1,7 +1,11 @@
+import image from "./portfolioImages/graduation.jpeg"
+
 function Home () {
-    console.log("hi")
+    
     return (
-        <div>Home</div>
+        <div>Home
+            <img src={image} alt="Felipa Mendez"/>
+        </div>
     )
 }
 
