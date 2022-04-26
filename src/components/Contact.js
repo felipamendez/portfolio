@@ -1,7 +1,7 @@
 function Contact () {
 
     return (
-        <div>Contact</div>
+        <div>If you would like to get in touch, email me at <a href="mailto:felipalouise@gmail.com">felipalouise@gmail.com.</a></div>
     )
 }
 
