@@ -32,3 +32,27 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+
+.circle-img {
+  width: 170px;
+  height: 160px;
+  border-radius: 50%;
+  display: inline;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.project-card {
+  width: 400px;
+  background-color: rgb(199, 208, 225);
+  border-radius: 1em;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  gap: 10px;
+}

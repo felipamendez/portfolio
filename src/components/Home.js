@@ -4,7 +4,7 @@ function Home () {
     
     return (
         <div>
-            <img src={image} alt="Felipa Mendez" className="img"/>
+            {/* <img src={image} alt="Felipa Mendez" className="img"/> */}
         </div>
     )
 }

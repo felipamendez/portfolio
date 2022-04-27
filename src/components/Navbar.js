@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom"
 import {FaLinkedin} from "react-icons/fa"
+import image from "./portfolioImages/graduation.jpeg"
+import { BsGithub } from "react-icons/bs"
 
 function Navbar () {
 
     return (
         <div className="navlink-container">
+                <img src={image} alt="Felipa Mendez" className="circle-img"/>
                 <NavLink to="/" className="navlink">
                    <div> Home </div> 
                 </NavLink>
@@ -24,6 +27,7 @@ function Navbar () {
                     <div> Blog </div> 
                 </NavLink>
                <a href="https://www.linkedin.com/in/felipa-mendez/"> <FaLinkedin /> </a> 
+               <a href="https://github.com/felipamendez"><BsGithub /></a>
         </div>
     )
 }
