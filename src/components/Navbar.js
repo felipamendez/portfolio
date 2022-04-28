@@ -23,9 +23,10 @@ function Navbar () {
                 <NavLink to="contact" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Contact </div> 
                 </NavLink>
-                <NavLink to="Blog" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                {/* <NavLink to="Blog" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Blog </div> 
-                </NavLink>
+                </NavLink> */}
+                <a className="navlink" href="https://medium.com/@felipalouise">Blog</a>
                <div className="icon"><a href="https://www.linkedin.com/in/felipa-mendez/" className="icon"> <FaLinkedin /> </a> </div>
                <div className="icon"><a href="https://github.com/stars/felipamendez/lists/projects" className="icon"> <BsGithub /> </a></div>
         </div>

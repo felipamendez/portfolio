@@ -22,13 +22,14 @@ body {
   height: 100vh;
   overflow: auto;
   width: 18%;
-  background-color: rgb(199, 208, 225);
+  background-color: rgb(199, 216, 225);
   gap: 30px;
   padding: 20px;
   justify-content: center;
   align-content: center;
   text-align: center;
-  padding-bottom: 100%;
+  padding-bottom: 35%;
+  margin-top: -10%;
 }
 
 .navlink {
@@ -61,8 +62,15 @@ body {
 
 .project-card {
   width: 350px;
-  background-color: rgb(199, 208, 225);
+  background-color: rgb(199, 216, 225);
   border-radius: 1em;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 10px;
 }
 
 .card-container {
@@ -79,6 +87,7 @@ body {
 .image {
   width: 300px;
   border-radius: 1em;
+  margin-left: 7%;
 }
 
 .icon {
@@ -91,6 +100,7 @@ body {
   text-align: center;
   width: 65%;
   border-radius: .5em;
+  margin-top: 10px;
 }
 
 .text-div {

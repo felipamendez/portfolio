@@ -7,11 +7,11 @@ function ProjectCard ({project}) {
         <div >
             <div className="project-card">
                <strong> <div>{name}</div> </strong>
-                <div><a href={heroku}>Heroku</a></div>
+                {heroku.length > 1 ? <div><a className="navlink" href={heroku}>Heroku</a></div> : null}
                 <img className="image" src={imageSrc[`image${id}`]} alt={name}></img>
                 <div>{oneLiner}</div>
-                <a href={github}> Github </a> 
-                {githubBackend.length > 1 ? <div><a href={githubBackend}>Github Backend</a></div>: null}
+                <a className="navlink" href={github}> Github </a> 
+                {githubBackend.length > 1 ? <div><a className="navlink" href={githubBackend}>Github Backend</a></div>: null}
             </div>
         </div>
     )

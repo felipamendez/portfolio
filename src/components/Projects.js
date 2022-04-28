@@ -10,6 +10,7 @@ function Projects () {
         {
           id: 1,
           name: "Stock Tracker",
+          demo: "",
           heroku: "https://stock-tracker-project.herokuapp.com/login",
           imageSrc: {image1},
           oneLiner: "Stock tracking application that displays real time stock information and news, and allows users to manage their portfolio. Try it out with this username and password: Test, password",
@@ -19,6 +20,7 @@ function Projects () {
         {
           id: 2,
           name: "Crave Local",
+          demo: "",
           heroku: "https://crave-local-project.herokuapp.com/login",
           imageSrc: {image2},
           oneLiner: "Application that connects users and restaurants to view menus and store online orders. Try it out with this username and password: felipa@felipa.com, password",
@@ -27,6 +29,7 @@ function Projects () {
         }, 
         {
           id: 3,
+          demo: "",
           name: "Raven",
           heroku: "",
           imageSrc: {image3},
@@ -36,6 +39,7 @@ function Projects () {
         }, 
         {
           id: 4,
+          demo: "",
           name: "Mom & Pop",
           heroku: "",
           imageSrc: {image4},
