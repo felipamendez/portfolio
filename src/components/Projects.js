@@ -48,7 +48,7 @@ function Projects () {
     //   console.log(projects)
     
       let singleProject = projects.map((project) => {return (
-        <div >
+        <div className="card-container" >
             <ProjectCard project={project}/>
         </div>)
     })

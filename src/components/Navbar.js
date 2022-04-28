@@ -8,9 +8,9 @@ function Navbar () {
     return (
         <div className="navlink-container">
                 <img src={image} alt="Felipa Mendez" className="circle-img"/>
-               <NavLink to="/"  className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+               {/* <NavLink to="/"  className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                    <div> Home </div> 
-                </NavLink>
+                </NavLink> */}
                 <NavLink to="about" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div>  About </div> 
                 </NavLink>

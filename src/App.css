@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   float: left;
   height: 100vh;
+  overflow: auto;
   width: 20%;
   background-color: rgb(199, 208, 225);
   gap: 30px;
@@ -27,26 +28,16 @@ body {
   justify-content: center;
   align-content: center;
   text-align: center;
+  padding-bottom: 100%;
 }
-
-/* .navlink-container > * {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-} */
 
 .navlink {
   text-decoration: none;
-  /* display: flex;
-  justify-content: center;
-  align-content: center; */
   float: none;
   color: rgb(147, 147, 147);
   font-weight: bold;
   font-size: 20px;
-  /* width: 100px; */
   text-align: center;
-  /* padding-left: 30%; */
 }
 
 .link-active {
@@ -56,7 +47,7 @@ body {
   font-size: 20px;
   border-bottom: solid; 
   width: 90px; 
-  margin-left: 25%; 
+  margin-left: 30%; 
 }
 
 .circle-img {
@@ -69,14 +60,14 @@ body {
 }
 
 .project-card {
-  width: 400px;
+  width: 300px;
   background-color: rgb(199, 208, 225);
   border-radius: 1em;
 }
 
 .card-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
   align-content: center;
   padding: 10px;
@@ -84,7 +75,7 @@ body {
 }
 
 .image {
-  width: 400px;
+  width: 300px;
   border-radius: 1em;
 }
 
