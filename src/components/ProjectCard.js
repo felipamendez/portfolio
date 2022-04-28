@@ -4,7 +4,7 @@ function ProjectCard ({project}) {
     console.log(imageSrc[`image${id}`])
 
     return (
-        <div className="card-container">
+        <div >
             <div className="project-card">
                <strong> <div>{name}</div> </strong>
                 <div><a href={heroku}>Heroku</a></div>

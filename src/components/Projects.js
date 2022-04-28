@@ -48,13 +48,13 @@ function Projects () {
     //   console.log(projects)
     
       let singleProject = projects.map((project) => {return (
-        <div className="card-container" >
+        <div  >
             <ProjectCard project={project}/>
         </div>)
     })
     
     return (
-        <div >{singleProject}</div>
+        <div className="card-container">{singleProject}</div>
     )
 }
 

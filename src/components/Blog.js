@@ -1,6 +1,6 @@
 function Blog () {
     return (
-        <div>Browse through my technical blog <a href="https://medium.com/@felipalouise">here!</a></div>
+        <div className="text-div">Browse through my technical blog <a href="https://medium.com/@felipalouise">here!</a></div>
     )
 }
 

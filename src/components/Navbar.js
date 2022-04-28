@@ -27,7 +27,7 @@ function Navbar () {
                     <div> Blog </div> 
                 </NavLink>
                <div className="icon"><a href="https://www.linkedin.com/in/felipa-mendez/" className="icon"> <FaLinkedin /> </a> </div>
-               <div className="icon"><a href="https://github.com/felipamendez" className="icon"> <BsGithub /> </a></div>
+               <div className="icon"><a href="https://github.com/stars/felipamendez/lists/projects" className="icon"> <BsGithub /> </a></div>
         </div>
     )
 }
