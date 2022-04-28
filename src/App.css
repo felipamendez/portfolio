@@ -24,13 +24,39 @@ body {
   background-color: rgb(199, 208, 225);
   gap: 30px;
   padding: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
+/* .navlink-container > * {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} */
+
 .navlink {
+  text-decoration: none;
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+  float: none;
+  color: rgb(147, 147, 147);
+  font-weight: bold;
+  font-size: 20px;
+  /* width: 100px; */
+  text-align: center;
+  /* padding-left: 30%; */
+}
+
+.link-active {
   text-decoration: none;
   color: rgb(147, 147, 147);
   font-weight: bold;
   font-size: 20px;
+  border-bottom: solid; 
+  width: 90px; 
+  margin-left: 25%; 
 }
 
 .circle-img {
@@ -61,3 +87,10 @@ body {
   width: 400px;
   border-radius: 1em;
 }
+
+.icon {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(85, 0, 255);
+}
+

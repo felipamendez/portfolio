@@ -8,26 +8,26 @@ function Navbar () {
     return (
         <div className="navlink-container">
                 <img src={image} alt="Felipa Mendez" className="circle-img"/>
-                <NavLink to="/" className="navlink">
+               <NavLink to="/"  className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                    <div> Home </div> 
                 </NavLink>
-                <NavLink to="about" className="navlink">
+                <NavLink to="about" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div>  About </div> 
                 </NavLink>
-                <NavLink to="projects" className="navlink">
+                <NavLink to="projects" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Projects </div> 
                 </NavLink>
-                <NavLink to="resume" className="navlink">
+                <NavLink to="resume" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Resume </div> 
                 </NavLink>
-                <NavLink to="contact" className="navlink">
+                <NavLink to="contact" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Contact </div> 
                 </NavLink>
-                <NavLink to="Blog" className="navlink">
+                <NavLink to="Blog" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Blog </div> 
                 </NavLink>
-               <a href="https://www.linkedin.com/in/felipa-mendez/"> <FaLinkedin /> </a> 
-               <a href="https://github.com/felipamendez"><BsGithub /></a>
+               <div className="icon"><a href="https://www.linkedin.com/in/felipa-mendez/" className="icon"> <FaLinkedin /> </a> </div>
+               <div className="icon"><a href="https://github.com/felipamendez" className="icon"> <BsGithub /> </a></div>
         </div>
     )
 }

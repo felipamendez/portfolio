@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard"
 import image1 from "./portfolioImages/stocktracker.jpeg"
 import image2 from "./portfolioImages/cravelocal.png"
+import image3 from "./portfolioImages/raven.png"
 import image4 from "./portfolioImages/momandpop.png"
 
 function Projects () {
@@ -28,8 +29,8 @@ function Projects () {
           id: 3,
           name: "Raven",
           heroku: "",
-          imageSrc: "",
-          oneLiner: "Social media website that allows users to like and write posts. Users can view the user pages and write comments.",
+          imageSrc: {image3},
+          oneLiner: "Social media website that allows users to like and write posts. Users can view the user pages and write comments. Try it out with this username and password: Daenerys Targaryen, queen",
           github: "https://github.com/felipamendez/phase-3-project-frontend",
           githubBackend: "https://github.com/felipamendez/phase-3-sinatra-react-project"
         }, 
