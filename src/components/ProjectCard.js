@@ -1,17 +1,18 @@
 function ProjectCard ({project}) {
-    const {id, name, heroku, imageSrc, oneLiner, github, githubBackend} = project
+    const {id, name, heroku, imageSrc, oneLiner, github, githubBackend, demo} = project
     
     console.log(imageSrc[`image${id}`])
 
     return (
         <div >
             <div className="project-card">
-               <strong> <div>{name}</div> </strong>
-                {heroku.length > 1 ? <div><a className="navlink" href={heroku}>Heroku</a></div> : null}
+               <strong> <div className="title">{name}</div> </strong>
+                <a href={demo} className="link">Demo Video</a>
+                {heroku.length > 1 ? <div><a className="link" href={heroku}>Deployed Apllication</a></div> : null}
                 <img className="image" src={imageSrc[`image${id}`]} alt={name}></img>
-                <div>{oneLiner}</div>
-                <a className="navlink" href={github}> Github </a> 
-                {githubBackend.length > 1 ? <div><a className="navlink" href={githubBackend}>Github Backend</a></div>: null}
+                <div className="card-text-div">{oneLiner}</div>
+                <a className="link" href={github}> Github </a> 
+                {githubBackend.length > 1 ? <div><a className="link" href={githubBackend}>Github Backend</a></div>: null}
             </div>
         </div>
     )
