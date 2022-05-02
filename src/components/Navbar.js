@@ -11,7 +11,7 @@ function Navbar () {
                {/* <NavLink to="/"  className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                    <div> Home </div> 
                 </NavLink> */}
-                <NavLink to="/" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                <NavLink to="/portfolio" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div>  About </div> 
                 </NavLink>
                 <NavLink to="/projects" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
