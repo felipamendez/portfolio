@@ -26,9 +26,9 @@ function Navbar () {
                 {/* <NavLink to="Blog" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Blog </div> 
                 </NavLink> */}
-                <a className="navlink" href="https://medium.com/@felipalouise">Blog</a>
-               <div className="icon"><a href="https://www.linkedin.com/in/felipa-mendez/" className="icon"> <FaLinkedin /> </a> </div>
-               <div className="icon"><a href="https://github.com/stars/felipamendez/lists/projects" className="icon"> <BsGithub /> </a></div>
+                <a className="navlink" target="_blank" rel="noopener noreferrer" href="https://medium.com/@felipalouise">Blog</a>
+               <div className="icon"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/felipa-mendez/" className="icon"> <FaLinkedin /> </a> </div>
+               <div className="icon"><a target="_blank" rel="noopener noreferrer" href="https://github.com/stars/felipamendez/lists/projects" className="icon"> <BsGithub /> </a></div>
         </div>
     )
 }
