@@ -11,16 +11,16 @@ function Navbar () {
                {/* <NavLink to="/"  className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                    <div> Home </div> 
                 </NavLink> */}
-                <NavLink to="about" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                <NavLink to="portfolio/about" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div>  About </div> 
                 </NavLink>
-                <NavLink to="projects" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                <NavLink to="portfolio/projects" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Projects </div> 
                 </NavLink>
-                <NavLink to="resume" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                <NavLink to="portfolio/resume" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Resume </div> 
                 </NavLink>
-                <NavLink to="contact" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
+                <NavLink to="portfolio/contact" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
                     <div> Contact </div> 
                 </NavLink>
                 {/* <NavLink to="Blog" className={({ isActive }) => (isActive ? "link-active" : "navlink")}>
