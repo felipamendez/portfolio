@@ -8,7 +8,7 @@ function ProjectCard ({project}) {
             <div className="project-card">
                <strong> <div className="title">{name}</div> </strong>
                 <a href={demo} className="link">Demo Video</a>
-                {heroku.length > 1 ? <div><a className="link" href={heroku}>Deployed Apllication</a></div> : null}
+                {heroku.length > 1 ? <div><a className="link" href={heroku}>Deployed Aplication</a></div> : null}
                 <img className="image" src={imageSrc[`image${id}`]} alt={name}></img>
                 <div className="card-text-div">{oneLiner}</div>
                 <a className="link" href={github}> Github </a> 
