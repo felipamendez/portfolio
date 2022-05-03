@@ -21,7 +21,7 @@ body {
   float: left;
   height: 100vh;
   overflow: auto;
-  width: 18%;
+  width: 14%;
   background-color: rgb(199, 216, 225);
   gap: 30px;
   padding: 20px;
@@ -53,8 +53,8 @@ body {
 }
 
 .circle-img {
-  width: 170px;
-  height: 160px;
+  width: 160px;
+  height: 150px;
   border-radius: 50%;
   display: inline;
   margin: 0 auto;
